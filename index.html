@@ -9,32 +9,32 @@
         <h1>Find a way to feed your kids...</h1>
     </div>
 
-    <form action="" method="get" id="expenses-form">
+    <form method="post" id="expenses-form">
         <div class="fields-region">
             <div class="field-item">
                 <label for="expense">Expense:</label>
-                <input type="text" name="expense" id="name" required>
+                <input type="text" name="expense" id="expense" required>
             </div>
             
             <div class="field-item">
                 <label for="value">Value:</label>
-                <input type="number" name="value" id="value" required>
+                <input type="text" name="value" id="value" required>
             </div>
             
             <div class="field-item">
                 <label for="date">Date:</label>
-                <input type="date" name="date" id="date" required>
+                <input type="date" name="date" id="date">
             </div>
             
             <div class="field-item">
                 <label for="category">Category:</label>
                 
-                <select name="category" id="category-select" required>
+                <select name="category" id="category-select">
                     <option value="">--Please choose an option--</option>
-                    <option value="dog">Food</option>
-                    <option value="cat">Transportation</option>
-                    <option value="hamster">Utilities</option>
-                    <option value="parrot">Internet</option>
+                    <option value="food">Food</option>
+                    <option value="transportation">Transportation</option>
+                    <option value="utilities">Utilities</option>
+                    <option value="internet">Internet</option>
                 </select>
             </div>
         </div>
